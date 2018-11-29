@@ -6,7 +6,7 @@ This library imports polylines from DXF file, based on the **kabeja** library.
 
 ## read polylines from **single** layer
 
-String file="/Users/huahao/Documents/labAAA teaching/5th 9xiao/poly0.dxf”;
+String file=“…/poly0.dxf”;
 
 double[][][] polygons = DXFImport.polylines_layer(file, "poly");
 
